@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react';
 import { connect } from 'react-redux';
 
 import PureComponent from '../components/PureComponent';
-import Icon from './playGameIcon';
+import Icon from '../components/playGameIcon';
 
 class PlayGameContainer extends PureComponent {
   static PropTypes = {
@@ -11,7 +11,7 @@ class PlayGameContainer extends PureComponent {
   render () {
     return (
       <div className='App'>
-        <Icon size={2} margin={1} primary />
+        <Icon size={1.2} margin={1} primary src='http://pic23.photophoto.cn/20120530/0020033092420808_b.jpg' />
       </div>
     );
   }
