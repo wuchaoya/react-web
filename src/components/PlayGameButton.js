@@ -1,5 +1,7 @@
 import styled from 'styled-components';
+
 import colorStyle from '../styles/colorStyle';
+
 export default styled.div`
   display: inline-block;
   width: ${(props) => props.width}rem;

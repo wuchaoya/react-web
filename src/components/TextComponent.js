@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+
 import colorStyle from '../styles/colorStyle';
 
 export default styled.p`
