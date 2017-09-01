@@ -3,8 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "crypto-js": "^3.1.9-1",
-    "css-reset-and-normalize-sass": "^0.1.2",
     "immutable": "^3.8.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
