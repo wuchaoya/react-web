@@ -5,9 +5,13 @@ import {
 } from 'react-router-dom';
 
 import PlayGameContainer from '../containers/PlayGameContainer';
+import CloudPlayContainer from '../containers/CloudPlayContainer';
 const Base = () => (
   <Router>
-    <Route path='/' component={PlayGameContainer} />
+    <div>
+      <Route exact path='/' component={PlayGameContainer} />
+      <Route path='/topics/:id' component={CloudPlayContainer} />
+    </div>
   </Router>
 );
 

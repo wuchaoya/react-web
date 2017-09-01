@@ -4,7 +4,7 @@ class CloudPlayContainer extends Component {
   render () {
     return (
       <div>
-        云玩页面
+        {this.props.match.params.id}
       </div>
     );
   }

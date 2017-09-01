@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import {
+  Link
+} from 'react-router-dom';
 
 import Icon from '../components/playGameIcon';
 import PlayGameItem from '../components/PlayGameItem';
@@ -23,7 +26,9 @@ class PlayGameContainer extends Component {
                   <Title fontSize={0.34} fontWeight={900}>{item.title}</Title>
                   <Text fontSize={0.22}>{item.text}</Text>
                 </PlayGameText>
-                <PlayGameButton width={2.2} height={0.7} right={0.2}>开始游戏</PlayGameButton>
+                <Link to={`/topics/${index}`} >
+                  <PlayGameButton width={2.2} height={0.7} right={0.2}>开始游戏</PlayGameButton>
+                </Link>
               </PlayGameItem>);
           })}
         </PlayGameItemContainer>
