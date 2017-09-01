@@ -12,6 +12,7 @@
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.12",
     "redux": "^3.7.2",
+    "serve": "^6.0.6",
     "styled-components": "^2.1.2"
   },
   "scripts": {
@@ -34,5 +35,6 @@
     "eslint-plugin-promise": "^3.0.0",
     "eslint-plugin-react": "^7.3.0",
     "eslint-plugin-standard": "^2.0.0"
-  }
+  },
+  "homepage": "./"
 }

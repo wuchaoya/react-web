@@ -7,7 +7,7 @@ import {
 import PlayGameContainer from '../containers/PlayGameContainer';
 const Base = () => (
   <Router>
-    <Route exact path='/' component={PlayGameContainer} />
+    <Route path='/' component={PlayGameContainer} />
   </Router>
 );
 
