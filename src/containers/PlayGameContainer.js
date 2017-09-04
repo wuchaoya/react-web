@@ -12,6 +12,7 @@ import PlayGameText from '../components/PlayGameText';
 import dataList from '../data/gameDataList';
 import Container from './BackgroundContainer';
 import PlayGameItemContainer from './PlayGameItemContainer';
+import HttpRequest from '../utils/HttpRequest';
 
 class PlayGameContainer extends Component {
   render () {
@@ -34,6 +35,9 @@ class PlayGameContainer extends Component {
         </PlayGameItemContainer>
       </Container>
     );
+  }
+  componentDidMount () {
+    HttpRequest.cs();
   }
 }
 
