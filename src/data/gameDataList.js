@@ -3,7 +3,7 @@ let dataList = [
   {
     imgUrl: url,
     title: '斗地主',
-    text: '斗地主很好玩'
+    text: '斗地主很好玩斗地主很好玩斗地主很好玩斗地主很好玩斗地主很好玩斗地主很好玩斗地主很好玩'
   },
   {
     imgUrl: url,

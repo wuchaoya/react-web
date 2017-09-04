@@ -25,7 +25,7 @@ class PlayGameContainer extends Component {
                 <Icon size={1.2} top={0.1} left={0.1} src={item.imgUrl} />
                 <PlayGameText marginLeft={0.1}>
                   <Title fontSize={0.34} fontWeight={900}>{item.title}</Title>
-                  <Text fontSize={0.22}>{item.text}</Text>
+                  <Text lineClamp={2} fontSize={0.22}>{item.text}</Text>
                 </PlayGameText>
                 <Link to={`/topics/${index}`} >
                   <PlayGameButton width={2.2} height={0.7} right={0.2}>开始游戏</PlayGameButton>

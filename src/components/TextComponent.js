@@ -8,4 +8,8 @@ export default styled.p`
   color: ${(props) => props.color ? colorStyle.textColor : props.color};
   margin: 0;
   padding: 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: ${(props) => props.lineClamp};
+  overflow: hidden;
   `;
